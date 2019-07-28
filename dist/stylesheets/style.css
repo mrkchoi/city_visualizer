@@ -4,3 +4,15 @@
   padding: 1rem;
 }
 
+.map__container {
+  position: relative;
+}
+
+.map__container svg {
+  position: absolute;
+}
+
+.map__background {
+  width: 900px;
+  border: 1px solid black;
+}
