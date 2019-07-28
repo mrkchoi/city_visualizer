@@ -1,0 +1,37 @@
+.main__container--inner {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 1rem;
+  /* background-color: pink; */
+}
+
+.rect.bar {
+  fill: white; 
+}
+
+#chart-area {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#chart-area svg {
+  /* border: 1px solid gray; */
+  cursor: pointer;
+}
+
+
+.line__bubble {
+  stroke: black;
+}
+
+
+.line {
+  stroke: black;
+  fill: none;
+  stroke-width: 2px;
+}
+
+svg {
+  cursor: pointer;
+}
