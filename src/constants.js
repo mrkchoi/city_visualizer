@@ -125,19 +125,19 @@ const CEDAR_RAPIDS_COLOR = "#8F94FF";
 
 export const CITIES = {
          PLANO: {
-           city: PLANO_CITY,
+           city: 'Plano',
            constant: PLANO,
            class: PLANO_CLASS,
            color: PLANO_COLOR,
            emotionalWellbeing: 4,
            incomeEmployment: 3,
            communityEnvironment: 4,
-           position: { x: 496, y: 360 },
+           position: { x: 526, y: 390 },
            happinessScore: 72.3,
            ranking: 1
          },
          IRVINE: {
-           city: IRVINE_CITY,
+           city: "Irvine",
            constant: IRVINE,
            class: IRVINE_CLASS,
            color: IRVINE_COLOR,
@@ -149,19 +149,19 @@ export const CITIES = {
            ranking: 2
          },
          MADISON: {
-           city: MADISON_CITY,
+           city: "Madison",
            constant: MADISON,
            class: MADISON_CLASS,
            color: MADISON_COLOR,
            emotionalWellbeing: 2,
            incomeEmployment: 8,
            communityEnvironment: 4,
-           position: { x: 600, y: 160 },
+           position: { x: 640, y: 160 },
            happinessScore: 71.81,
            ranking: 3
          },
          FREMONT: {
-           city: FREMONT_CITY,
+           city: "Fremont",
            constant: FREMONT,
            class: FREMONT_CLASS,
            color: FREMONT_COLOR,
@@ -173,19 +173,19 @@ export const CITIES = {
            ranking: 4
          },
          HUNTINGTON_BEACH: {
-           city: HUNTINGTON_BEACH_CITY,
+           city: 'Huntington Beach',
            constant: HUNTINGTON_BEACH,
            class: HUNTINGTON_BEACH_CLASS,
            color: HUNTINGTON_BEACH_COLOR,
            emotionalWellbeing: 3,
            incomeEmployment: 25,
            communityEnvironment: 15,
-           position: { x: 170, y: 280 },
+           position: { x: 159, y: 290 },
            happinessScore: 69.74,
            ranking: 5
          },
          FARGO: {
-           city: FARGO_CITY,
+           city: 'Fargo',
            constant: FARGO,
            class: FARGO_CLASS,
            color: FARGO_COLOR,
@@ -197,19 +197,19 @@ export const CITIES = {
            ranking: 6
          },
          GRAND_PRAIRIE: {
-           city: GRAND_PRAIRIE_CITY,
+           city: 'Grand Prairie',
            constant: GRAND_PRAIRIE,
            class: GRAND_PRAIRIE_CLASS,
            color: GRAND_PRAIRIE_COLOR,
            emotionalWellbeing: 11,
            incomeEmployment: 19,
            communityEnvironment: 3,
-           position: { x: 497, y: 350 },
+           position: { x: 525, y: 410 },
            happinessScore: 69.3,
            ranking: 7
          },
          SAN_JOSE: {
-           city: SAN_JOSE_CITY,
+           city: 'San Jose',
            constant: SAN_JOSE,
            class: SAN_JOSE_CLASS,
            color: SAN_JOSE_COLOR,
@@ -221,79 +221,79 @@ export const CITIES = {
            ranking: 8
          },
          SCOTTSDALE: {
-           city: SCOTTSDALE_CITY,
+           city: 'Scottsdale',
            constant: SCOTTSDALE,
            class: SCOTTSDALE_CLASS,
            color: SCOTTSDALE_COLOR,
            emotionalWellbeing: 25,
            incomeEmployment: 7,
            communityEnvironment: 1,
-           position: { x: 270, y: 321 },
+           position: { x: 270, y: 341 },
            happinessScore: 68.24,
            ranking: 9
          },
          SAN_FRANCISCO: {
-           city: SAN_FRANCISCO_CITY,
+           city: 'San Francisco',
            constant: SAN_FRANCISCO,
            class: SAN_FRANCISCO_CLASS,
            color: SAN_FRANCISCO_COLOR,
            emotionalWellbeing: 2,
            incomeEmployment: 1,
            communityEnvironment: 69,
-           position: { x: 135, y: 205 },
+           position: { x: 136, y: 212 },
            happinessScore: 67.53,
            ranking: 10
          },
          BISMARCK: {
-           city: BISMARCK_CITY,
+           city: 'Bismarck',
            constant: BISMARCK,
            class: BISMARCK_CLASS,
            color: BISMARCK_COLOR,
            emotionalWellbeing: 14,
            incomeEmployment: 2,
            communityEnvironment: 25,
-           position: { x: 458, y: 106 },
+           position: { x: 478, y: 106 },
            happinessScore: 67.38,
            ranking: 11
          },
          OVERLAND_PARK: {
-           city: OVERLAND_PARK_CITY,
+           city: 'Overland Park',
            constant: OVERLAND_PARK,
            class: OVERLAND_PARK_CLASS,
            color: OVERLAND_PARK_COLOR,
            emotionalWellbeing: 12,
            incomeEmployment: 31,
            communityEnvironment: 14,
-           position: { x: 529, y: 248 },
+           position: { x: 570, y: 278 },
            happinessScore: 67.37,
            ranking: 12
          },
          SANTA_ROSA: {
-           city: SANTA_ROSA_CITY,
+           city: 'Santa Rosa',
            constant: SANTA_ROSA,
            class: SANTA_ROSA_CLASS,
            color: SANTA_ROSA_COLOR,
            emotionalWellbeing: 13,
            incomeEmployment: 29,
            communityEnvironment: 5,
-           position: { x: 134, y: 183 },
+           position: { x: 132, y: 196 },
            happinessScore: 67.18,
            ranking: 13
          },
          AUSTIN: {
-           city: AUSTIN_CITY,
+           city: 'Austin',
            constant: AUSTIN,
            class: AUSTIN_CLASS,
            color: AUSTIN_COLOR,
            emotionalWellbeing: 8,
            incomeEmployment: 4,
            communityEnvironment: 44,
-           position: { x: 477, y: 410 },
+           position: { x: 497, y: 430 },
            happinessScore: 67.16,
            ranking: 14
          },
          SIOUX_FALLS: {
-           city: SIOUX_FALLS_CITY,
+           city: 'Sioux Falls',
            constant: SIOUX_FALLS,
            class: SIOUX_FALLS_CLASS,
            color: SIOUX_FALLS_COLOR,
@@ -305,31 +305,31 @@ export const CITIES = {
            ranking: 15
          },
          PEARL_CITY: {
-           city: PEARL_CITY_CITY,
+           city: 'Pearl City',
            constant: PEARL_CITY,
            class: PEARL_CITY_CLASS,
            color: PEARL_CITY_COLOR,
            emotionalWellbeing: 1,
            incomeEmployment: 81,
            communityEnvironment: 8,
-           position: { x: 330, y: 461 },
+           position: { x: 350, y: 491 },
            happinessScore: 66.77,
            ranking: 16
          },
          GLENDALE: {
-           city: GLENDALE_CITY,
+           city: 'Glendale',
            constant: GLENDALE,
            class: GLENDALE_CLASS,
            color: GLENDALE_COLOR,
            emotionalWellbeing: 15,
            incomeEmployment: 56,
            communityEnvironment: 7,
-           position: { x: 167, y: 262 },
+           position: { x: 167, y: 272 },
            happinessScore: 66.25,
            ranking: 17
          },
          SAN_DIEGO: {
-           city: SAN_DIEGO_CITY,
+           city: 'San Diego',
            constant: SAN_DIEGO,
            class: SAN_DIEGO_CLASS,
            color: SAN_DIEGO_COLOR,
@@ -341,43 +341,43 @@ export const CITIES = {
            ranking: 18
          },
          ST_PAUL: {
-           city: ST_PAUL_CITY,
+           city: 'St. Paul',
            constant: ST_PAUL,
            class: ST_PAUL_CLASS,
            color: PLANO_COLOR,
            emotionalWellbeing: 10,
            incomeEmployment: 38,
            communityEnvironment: 36,
-           position: { x: 555, y: 133 },
+           position: { x: 590, y: 133 },
            happinessScore: 65.79,
            ranking: 19
          },
          CHARLESTON: {
-           city: CHARLESTON_CITY,
+           city: 'Charleston',
            constant: CHARLESTON,
            class: CHARLESTON_CLASS,
            color: CHARLESTON_COLOR,
            emotionalWellbeing: 41,
            incomeEmployment: 3,
            communityEnvironment: 2,
-           position: { x: 760, y: 366 },
+           position: { x: 805, y: 400 },
            happinessScore: 65.48,
            ranking: 20
          },
          GILBERT: {
-           city: GILBERT_CITY,
+           city: 'Gilbert',
            constant: GILBERT,
            class: GILBERT_CLASS,
            color: GILBERT_COLOR,
            emotionalWellbeing: 30,
            incomeEmployment: 26,
            communityEnvironment: 5,
-           position: { x: 277, y: 343 },
+           position: { x: 277, y: 363 },
            happinessScore: 65.07,
            ranking: 21
          },
          ANAHEIM: {
-           city: ANAHEIM_CITY,
+           city: 'Anaheim',
            constant: ANAHEIM,
            class: ANAHEIM_CLASS,
            color: ANAHEIM_COLOR,
@@ -389,38 +389,38 @@ export const CITIES = {
            ranking: 22
          },
          RALEIGH: {
-           city: RALEIGH_CITY,
+           city: 'Raleigh',
            constant: RALEIGH,
            class: RALEIGH_CLASS,
            color: RALEIGH_COLOR,
            emotionalWellbeing: 7,
            incomeEmployment: 23,
            communityEnvironment: 48,
-           position: { x: 773, y: 283 },
+           position: { x: 830, y: 313 },
            happinessScore: 64.99,
            ranking: 23
          },
          CAPE_CORAL: {
-           city: CAPE_CORAL_CITY,
+           city: 'Cape Coral',
            constant: CAPE_CORAL,
            class: CAPE_CORAL_CLASS,
            color: CAPE_CORAL_COLOR,
            emotionalWellbeing: 28,
            incomeEmployment: 48,
            communityEnvironment: 2,
-           position: { x: 741, y: 451 },
+           position: { x: 800, y: 480 },
            happinessScore: 64.96,
            ranking: 24
          },
          CEDAR_RAPIDS: {
-           city: CEDAR_RAPIDS_CITY,
+           city: 'Cedar Rapids',
            constant: CEDAR_RAPIDS,
            class: CEDAR_RAPIDS_CLASS,
            color: CEDAR_RAPIDS_COLOR,
            emotionalWellbeing: 23,
            incomeEmployment: 32,
            communityEnvironment: 11,
-           position: { x: 566, y: 194 },
+           position: { x: 600, y: 205 },
            happinessScore: 64.9,
            ranking: 25
          }
@@ -430,6 +430,6 @@ export const ANIMATION_DURATION = 1000;
 export const ANIMATION_DELAY = 0;
 export const ANIMATION_EASING = d3.easePoly;
 
-export const WIDTH = 200;
-export const HEIGHT = 200;
+export const WIDTH = 900;
+export const HEIGHT = 500;
 export const MARGINS = 100;

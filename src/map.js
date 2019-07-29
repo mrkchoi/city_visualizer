@@ -50,14 +50,24 @@ class Map extends Chart {
       .duration(ANIMATION_DURATION / 1.5)
       .attr("opacity", 1)
       .attr("x", d => {
-        // if (d.city === "New York") {
-        //   return d.position.x - 90;
-        // } else if (d.city === "Boston") {
-        //   return d.position.x - 75;
-        // } else if (d.city === "Raleigh") {
-        //   return d.position.x - 80;
-        // }
-        return d.position.x + 25;
+        if (d.city === "San Francisco") {
+          return d.position.x - 100;
+        } else if (d.city === "San Jose") {
+          return d.position.x - 68;
+        } else if (d.city === "Huntington Beach") {
+          return d.position.x - 130;
+        } else if (d.city === 'San Diego') {
+          return d.position.x - 75;
+        } else if (d.city === 'Bismarck') {
+          return d.position.x - 75;
+        } else if (d.city === 'Plano') {
+          return d.position.x - 50;
+        } else if (d.city === 'Sioux Falls') {
+          return d.position.x - 80;
+        } else if (d.city === 'Glendale') {
+          return d.position.x - 73;
+        }
+        return d.position.x + 15;
       })
       .attr("y", d => d.position.y + 5)
       .style("z-index", 100);

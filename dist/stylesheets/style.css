@@ -4,6 +4,10 @@
   padding: 1rem;
 }
 
+.main__header {
+  text-align: center;
+}
+
 .map__container {
   position: relative;
 }
@@ -13,6 +17,42 @@
 }
 
 .map__background {
-  width: 900px;
+  width: 100%;
   border: 1px solid black;
+}
+
+text {
+  fill: #777;
+  font-size: 12px;
+}
+
+.map-city-label {
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.label-text {
+  font-size: 12px;
+  font-weight: 700;
+  fill: white;
+}
+
+.city {
+  cursor: pointer;
+  z-index: 100;
+}
+
+text.city {
+  z-index: 10;
+}
+
+@keyframes bounce {
+  from { transform: translateY(0) }
+  to { transform: translateY(-2px) }
+}
+
+.city-pinpoint {
+  animation: bounce 0.5s infinite;
+  animation-direction: alternate;
+  transform-origin: 50% 50% 0;
 }
