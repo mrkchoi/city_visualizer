@@ -46,7 +46,7 @@ class Filter {
                 }</p>
                 <p class="tooltip__detail"><strong>Total Happiness Score:</strong> ${
                   d.happinessScore
-                }</p>
+                }/100</p>
                 <p class="tooltip__detail"><strong>Emotional & Physical Well-Being:</strong> ${
                   d.emotionalWellbeing
                 }</p>

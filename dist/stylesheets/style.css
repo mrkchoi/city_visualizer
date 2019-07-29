@@ -23,7 +23,7 @@ h1, h2, h3, h4, h5, h6 {
   align-items: flex-end;
 }
 .header__content {
-  max-width: 70%;
+  flex: 1;
   padding-right: 3rem;  
 }
 .header__tooltop {
