@@ -1,11 +1,42 @@
+body {
+  font-family: "Work Sans", sans-serif;
+  /* font-family: "Darker Grotesque", sans-serif; */
+  font-size: 16px;
+  background-color: #FFF6D5;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  /* font-family: "Work Sans", sans-serif; */
+  font-family: "Darker Grotesque", sans-serif;
+}
+
+
 .main__container--inner {
   max-width: 1000px;
   margin: 0 auto;
   padding: 1rem;
 }
 
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.header__content {
+  max-width: 70%;
+  padding-right: 3rem;  
+}
+.header__tooltop {
+  flex: 1;
+}
 .main__header {
-  text-align: center;
+  font-size: 4rem;
+}
+
+.main__description {
+  /* max-width: 75%; */
+  font-family: "Lora", sans-serif;
+  margin-bottom: 10px;
 }
 
 .map__container {
@@ -18,7 +49,7 @@
 
 .map__background {
   width: 100%;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 
 text {
@@ -40,6 +71,8 @@ text {
 .city {
   cursor: pointer;
   z-index: 100;
+  transition: all 100ms ease-in;
+  /* position: relative; */
 }
 
 text.city {
@@ -55,4 +88,18 @@ text.city {
   animation: bounce 0.5s infinite;
   animation-direction: alternate;
   transform-origin: 50% 50% 0;
+}
+
+.filter {
+  opacity: 0.1;
+}
+
+/* tooltip */
+
+.tooltip {
+  /* position: absolute; */
+}
+
+p.tooltip__detail {
+  margin-bottom: 5px;
 }

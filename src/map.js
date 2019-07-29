@@ -51,21 +51,21 @@ class Map extends Chart {
       .attr("opacity", 1)
       .attr("x", d => {
         if (d.city === "San Francisco") {
-          return d.position.x - 100;
+          return d.position.x - 110;
         } else if (d.city === "San Jose") {
-          return d.position.x - 68;
+          return d.position.x - 78;
         } else if (d.city === "Huntington Beach") {
-          return d.position.x - 130;
+          return d.position.x - 140;
         } else if (d.city === 'San Diego') {
-          return d.position.x - 75;
+          return d.position.x - 85;
         } else if (d.city === 'Bismarck') {
-          return d.position.x - 75;
+          return d.position.x - 85;
         } else if (d.city === 'Plano') {
-          return d.position.x - 50;
+          return d.position.x - 55;
         } else if (d.city === 'Sioux Falls') {
-          return d.position.x - 80;
+          return d.position.x - 90;
         } else if (d.city === 'Glendale') {
-          return d.position.x - 73;
+          return d.position.x - 75;
         }
         return d.position.x + 15;
       })
