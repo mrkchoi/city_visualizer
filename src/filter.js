@@ -10,7 +10,6 @@ class Filter {
       .style("opacity", 0)
       .attr("class", "tooltip")
       .style("background-color", "white")
-      // .style("position", "absolute")
       .style("border", "solid")
       .style("border-width", "2px")
       .style("border-radius", "5px")
@@ -38,32 +37,29 @@ class Filter {
           .html(
             `
               <div class="tooltip__inner">
-                <p class="tooltip__city"><strong>City:</strong> ${
+                <p class="tooltip__city"><strong>City: </strong><span>${
                   d.city
-                }</p>
-                <p class="tooltip__detail"><strong>Overall Rank:</strong> ${
+                }</span></p>
+                <p class="tooltip__detail"><strong>Overall Rank:</strong> <span>${
                   d.ranking
-                }</p>
-                <p class="tooltip__detail"><strong>Total Happiness Score:</strong> ${
+                }</span></p>
+                <p class="tooltip__detail"><strong>Total Happiness Score:</strong> <span>${
                   d.happinessScore
-                }/100</p>
-                <p class="tooltip__detail"><strong>Emotional & Physical Well-Being:</strong> ${
+                }/100</span></p>
+                <p class="tooltip__detail"><strong>Emotional & Physical Well-Being:</strong> <span>${
                   d.emotionalWellbeing
-                }</p>
-                <p class="tooltip__detail"><strong>Income & Employment:</strong> ${
+                }</span></p>
+                <p class="tooltip__detail"><strong>Income & Employment:</strong> <span>${
                   d.incomeEmployment
-                }</p>
-                <p class="tooltip__detail"><strong>Community & Environment:</strong> ${
+                }</span></p>
+                <p class="tooltip__detail"><strong>Community & Environment:</strong> <span>${
                   d.communityEnvironment
-                }</p>
+                }</span></p>
               </div>
             `
           );
-        // if available, show toggleable data
-        const toggleableData = document.querySelectorAll(`.${className}.city-data-toggle`);
-        toggleableData.forEach(data => {
-          data.classList.add('show');
-        })
+        const mainHeader = document.querySelector('.main__header');
+        mainHeader.setAttribute('style', `color: ${d.color}` );
       })
       .on('mouseleave', () => {
         const allCityData = document.querySelectorAll('.city');
@@ -71,11 +67,8 @@ class Filter {
           data.classList.remove('filter');
         })
 
-        // if available, hide toggleble data
-        const toggleableData = document.querySelectorAll(`.city-data-toggle`);
-        toggleableData.forEach(data => {
-          data.classList.remove('show');
-        })
+        const mainHeader = document.querySelector(".main__header");
+        mainHeader.setAttribute("style", `color: initial`);
       })
   }
 }
